@@ -151,22 +151,6 @@ python producer.py
 ```bash
 python consumer.py
 ```
-
----
-## 🧠 What You'll Learn from This Project
-
-This project is designed to give you hands-on, real-world exposure to the core components of a modern data pipeline. Here’s what you’ll learn
-
-- 📦 **Kafka Basics**: Learn how Apache Kafka works, including setting up a local Kafka environment.
-- 🔁 **Producer-Consumer Flow**: Understand how to publish and consume messages using `kafka-python`.
-- 🌐 **Fetching APIs**: Use the `requests` library to collect real-time data.
-- 🧹 **Pandas Fundamentals**: Perform data cleaning and manipulation using `pandas`.
-- 📁 **Working with Parquet**: Learn how to handle Parquet files using `pyarrow` and `pandas`.
-- 🔐 **Managing Secrets**: Securely store and access credentials using `dotenv` and environment variables.
-- ☁️ **AWS Integration**: Connect your local pipeline with AWS services using `boto3`.
-- 📤 **Kafka to AWS Flow**: Understand the end-to-end flow of ingesting data from Kafka and loading it into AWS.
-> Perfect for beginners to intermediate data engineers looking to build a real-world data ingestion pipeline.
-
 ---
 
 ## ✨ Key Highlights
