@@ -1,9 +1,5 @@
 # 📈 Real-Time Stock Data Streaming with Kafka + AWS Cloud + Python
 
-> 📌 This is part of the **BWN Project Series — Build With Nishant**, where I build real-world data engineering projects from scratch and share insight step-by-step.
-
----
-
 ## 🚀 Project Overview
 
 This project simulates **real-time stock price data streaming** using **Apache Kafka (locally installed)**. It fetches intraday stock data from a public API, publishes it to a Kafka topic, and consumes the messages to upload them as **Parquet files** into an **Amazon S3** bucket using `boto3`.
@@ -178,24 +174,4 @@ This project is designed to give you hands-on, real-world exposure to the core c
 - ⚡ **Real-Time Pipeline**: Demonstrates how to implement a real-time data ingestion pipeline using Kafka.
 - 🔄 **Hybrid Processing**: Covers both **streaming** (Kafka Consumer) and **batch buffering** (using in-memory Parquet conversion).
 - 📦 **Efficient Storage**: Utilizes `pyarrow` for writing Parquet files efficiently in-memory before uploading to cloud storage.
-
-## 🌱 Future Enhancements
-
-- Normalize nested JSON (e.g., flatten `Time Series`)
-- Add schema validation before uploading
-- Enhance retry logic and exception handling
-- Integrate with Athena/QuickSight for querying
-
----
-
-## 🙌 Connect with Me
-
-If you found this project helpful or you're on a journey to crack Data Engineering roles, let’s connect:
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/im-nsk/)
-- 👨🏻‍💻[Connect With Me](https://topmate.io/im_nsk/)
-- 👥 [Whatsapp](https://lnkd.in/giE3e9yH)
-- 🎯 [Get more interview calls](https://lnkd.in/ges-e-7J)
-- 🎤 [Mock Interviews](https://lnkd.in/g8Pqypt5)
-- 📚 [Interview Prep Guidance](https://lnkd.in/gUEVYCGy)
 
